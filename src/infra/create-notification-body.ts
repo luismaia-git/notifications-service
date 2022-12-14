@@ -11,4 +11,10 @@ export class CreateNotificationBody {
 
   @IsNotEmpty()
   category: string;
+
+  constructor(recipientId: string, content: string, category: string) {
+    this.category = category;
+    this.content = content;
+    this.recipientId = recipientId;
+  }
 }
