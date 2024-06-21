@@ -1,2 +1,2 @@
-Micro Service written in JavaScript.
-This backend contains unit test code and clean architecture
+Micro Service written in JavaScript using the NestJs framework.
+This backend contains unit test code and a clean architecture
